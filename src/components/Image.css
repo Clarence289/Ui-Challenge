@@ -1,0 +1,99 @@
+/* Image.css */
+
+
+.page-container {
+  border: 2px solid #ccc; 
+  border-radius: 8px;
+  padding: 20px; 
+  margin: 20px; 
+}
+
+/* Default styles */
+.image-container {
+  display: flex;
+  align-items: center;
+  margin-left: 200px; 
+}
+
+.text {
+  font-size: 50px;
+  font-weight: bold;
+  margin-right: 50px;
+}
+
+.image {
+  max-width: 300%;
+  height: auto;
+  border: 2px solid #a0c8e0; 
+  border-radius: 8px;
+}
+
+.why-me {
+  flex: 1;
+  padding: 100px;
+  text-align: left;
+}
+
+/* Card styles */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  margin-top: 300px;
+}
+
+.card {
+  width: calc(25% - 20px);
+  margin: 5px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Rotate Clarence text */
+.text.rotate {
+  transform: rotate(270deg);
+}
+
+/* Responsive styles for screens smaller than 768px */
+@media (max-width: 768px) {
+  .image-container {
+    flex-direction: column;
+    align-items: flex-start; 
+    margin-left: 0;
+    padding: 20px; 
+  }
+
+  .text {
+    font-size: 36px; 
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .image {
+    width: 100%; 
+  }
+
+  .why-me {
+    padding: 50px; /* Reduce padding */
+  }
+
+  .card-container {
+    margin-top: 50px; /* Reduce margin for cards */
+  }
+
+  .card {
+    width: 100%; /* Make cards full width for smaller screens */
+  }
+
+  /* Adjust card font sizes for smaller screens */
+  .card-heading {
+    font-size: 24px;
+  }
+
+  .card-paragraph {
+    font-size: 16px;
+  }
+}

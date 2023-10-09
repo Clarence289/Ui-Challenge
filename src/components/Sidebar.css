@@ -1,0 +1,21 @@
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 6;
+    bottom: 0;
+    width: 100px; 
+    background-color: white; 
+    color: black; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .upside-down-text {
+    transform: rotate(270deg); 
+    margin: 50px ; 
+  }
+  
