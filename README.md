@@ -8,4 +8,5 @@ Technologies Used
 React.js
 Redux
 Bootstrap
+CSS
 
