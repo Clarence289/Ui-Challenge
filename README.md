@@ -5,8 +5,6 @@
 
 Technologies Used
 
-List the front-end technologies and libraries/frameworks you used to build this part of your project. For example:
-
 React.js
 Redux
 Axios
