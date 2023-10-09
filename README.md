@@ -7,6 +7,5 @@ Technologies Used
 
 React.js
 Redux
-Axios
 Bootstrap
-etc.
+
